@@ -37,7 +37,13 @@ module.exports = function(ziggy, settings) {
 				return
 			}
 
-			ziggy.say(target, result.result.title + ': ' + result.result.excerpt.replace(/<mark>|<\/mark>/g, '') + ' ' + result.result.url)
+			var excerpt = result.result.excerpt
+			if(excerpt.indexOf("\n") === -1) {
+				excerpt = excerpt.replace(/<mark>|<\/mark>/g, '') + ' '
+			} else {
+				excerpt = ''
+			}
+			ziggy.say(target, result.result.title + ': ' + excerpt + result.result.url)
 		})
 	}
 

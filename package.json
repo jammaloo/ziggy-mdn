@@ -1,6 +1,6 @@
 {
   "name": "ziggy-mdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mdn docs plugin for ziggy irc bot",
   "main": "index.js",
   "repository": {
