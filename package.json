@@ -1,0 +1,29 @@
+{
+  "name": "ziggy-mdn",
+  "version": "1.0.0",
+  "description": "mdn docs plugin for ziggy irc bot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jammaloo/ziggy-mdn.git"
+  },
+  "keywords": [
+    "ziggy",
+    "mdn",
+    "mozilla",
+    "developer",
+    "network",
+    "documentation",
+    "plugin"
+  ],
+  "author": "james freeman <me@jammaloo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jammaloo/ziggy-mdn/issues"
+  },
+  "homepage": "https://github.com/jammaloo/ziggy-mdn",
+  "dependencies": {
+    "request": "^2.55.0",
+    "ziggy": ">=2.0.0"
+  }
+}
